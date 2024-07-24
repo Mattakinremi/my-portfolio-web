@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="matt akinremi personal website" />
+    <meta
+      name="keywords"
+      content="Matthew Akinremi, mattakinremi,Software Developer,Frontend Developer,Linux system administrator, shoemaker, graphics designer, ReactJs, NodeJs"
+    />
+    <title>Matthew Akinremi personal Website</title>
+    <!-- css styling -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome personal kits -->
+    <script
+      src="https://kit.fontawesome.com/eaab1623f5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- content Wrapper -->
+    <div class="container">
+      <!-- Header -->
+      <header data-testid="header">
+        <div class="logo">
+          <img
+            src="./assets/matakin png.PNG"
+            height="40px"
+            alt="mattakinremi-logo"
+          />
+          
+        </div>
+        <nav data-testid="navigation">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="menu" data-testid="side-menu-toggle">
+          <img
+            src="./assets/icons8-menu.svg"
+            width="30px"
+            height="30px"
+            class="side-menu"
+            alt=""
+          />
+          <div class="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </header>
+      <!-- Side Menu -->
+      <div class="side-menu display-table" data-testid="side-bar">
+        <div class="side-menu-container">
+          <!-- Intro side -->
+          <div class="about-side">
+            <div class="about-side-head">
+              <h2 data-testid="slackDisplayName">Matthew Akinremi</h2>
+              <i class="fa-solid fa-close"></i>
+            </div>
+            <p>
+              I Have A Passion For Creating Challenging, Intuitive And
+              Problem-solving Products, I'm a highly-motivated, productive and
+              client-focused team player with good communication, interpersonal,
+              organizational and time management skills.
+            </p>
+          </div>
+
+          <!-- contact us -->
+          <div class="contact-side">
+            <h6>Contact Me</h6>
+            <div class="single-contact">
+              <span><i class="fa-solid fa-location-dot"></i></span>
+              <div class="info-cont">
+                <p>Lagos - Nigeria</p>
+              </div>
+            </div>
+
+            <div class="single-contact">
+              <span><i class="fa fa-envelope"></i></span>
+              <div class="info-cont">
+                <p data-testid="Email">mattakinremi@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="single-contact">
+              <span><i class="fa fa-phone"></i></span>
+              <div class="info-cont">
+                <p>(+234) 7065256726</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- follow us -->
+          <div class="follow-us">
+            <h6>Follow Me</h6>
+            <!-- List Icons Social Media-->
+            <ul class="social-media">
+              <li>
+                <a
+                  href="https://web.facebook.com/akinremiolaboyem/"
+                  class="facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/mattakinremi" class="twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/mattakinremi"
+                  class="instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/mattakinremi" class="github"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/mattakinremi/"
+                  class="linkedin"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Main -->
+      <main>
+        <!-- profile desc -->
+        <section
+          class="main-content-wrapper"
+          id="about"
+          data-testid="main-content"
+        >
+          <div class="wrapper-border">
+            <div class="profile-description">
+              <ul>
+                <li>Frontend Engineer</li>
+                <li>Shoemaker</li>
+                <li>Business administrator</li>
+                <li>graphics Designer</li>
+              </ul>
+              <h1 data-testid="slackDisplayName">
+                Hello, I'm Mattakinremi!
+                <br />
+                <span id="typed-text"></span>
+                <span
+                  class="typed-cursor typed-cursor--blink"
+                  aria-hidden="true"
+                ></span>
+              </h1>
+              <h3>Enthusiastic freelance frontend end web developer</h3>
+              <p>
+                Creative professional with over 10 years of graphic design experience and seven years in shoemaking. As Creative Director of Ejura Creativities, I deliver high-quality, innovative designs. Recently expanded into freelance front-end web development, combining technical skills with a strong design background to create exceptional user experiences.
+                 </p>
+              <!-- current time and date in utc -->
+              <p data-testid="currentDay"></p>
+              <!-- <p id="current-time-date" data-testid="currentTimeUTC"></p> -->
+              <button id="goal" data-testid="slackDisplayName">
+                Matthew Akinremi
+              </button>
+            </div>
+            <!-- profile img -->
+            <div class="profile_img" data-testid="slackProfilePicture">
+              <img
+                src="./assets/PSX_20240616_194304.jpg"
+                
+                height="400"
+                data-testid="slackProfilePicture"
+                alt="profile-img"
+              />
+            </div>
+          </div>
+        </section>
+        <!-- portfolio -->
+        <section class="Portfolio" id="Portfolio" data-testid="portfolio-section">
+          <!-- portfolio Header -->
+          <h2>Portfolio</h2>
+          <p class="portfolio-subheader">First year</p>
+          <div class="portfolio-one">
+            <div class="cards">
+              <div class="card-heading">
+                <i class="fa-solid fa-gears"></i>
+                <h3 class="card-heading">Skill Enhancement</h3>
+              </div>
+
+              <ul>
+                <p>Deepen JavaScript Knowledge</p>
+                <li>
+                  Master advanced JavaScript concepts such as closures,
+                  prototypes, asynchronous programming, and design patterns.
+                </li>
+                <p>Learn TypeScript</p>
+                <li>
+                  Mastering TypeScript to write more robust and error-free code.
+                </li>
+                <p>Explore Backend Development</p>
+                <li>
+                  Gain a basic understanding of backend technologies such as
+                  Node.js, Express, and databases like MongoDB or PostgreSQL.
+                </li>
+              </ul>
+            </div>
+            <div class="cards">
+              <div class="card-heading">
+                <i class="fa-solid fa-certificate"></i>
+                <h3 class="card-heading">Adding More Certifications</h3>
+              </div>
+
+              <ul>
+                <p>Obtain More Certicfication</p>
+                <li>
+                  Earn relevant certifications in web development, such as the
+                  React certification from Facebook or a JavaScript
+                  certification from an established platform
+                </li>
+                <p>Projects</p>
+                <li>
+                  Build Real-world Projects:Create and deploy at least 3
+                  full-stack applications on my portfolio.
+                </li>
+                <p>Contribute to Open Source</p>
+                <li>
+                  Start contributing to open-source projects to gain experience
+                  and recognition.
+                </li>
+              </ul>
+            </div>
+            <div class="cards">
+              <div class="card-heading">
+                <i class="fa-solid fa-handshake"></i>
+                <h3 class="card-heading">Networking</h3>
+              </div>
+
+              <ul>
+                <p>Attend Meetuups and Conferences</p>
+                <li>
+                  Participate in local and online tech meetups, hackathons, and
+                  conferences to network with other professionals.
+                </li>
+                <p>Join Professional Communities</p>
+                <li>
+                  Be active on platforms like GitHub, Stack Overflow, and
+                  relevant subreddits.
+                </li>
+                <p>Participates in Spaces</p>
+                <li>Join relevant dev spaces on X and discord</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Goals for 2nd year -->
+          <p class="portfolio">Second year</p>
+          <div class="portfolio">
+            <div class="cards">
+              <div class="card-heading">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3 class="card-heading">Freelancing & Personal branding</h3>
+              </div>
+
+              <ul>
+                <p>Start Freelancing</p>
+                <li>
+                  Take on freelance projects to diversify my experience and
+                  income sources.
+                </li>
+                <p>Personal branding</p>
+
+                <li>
+                  Be active on professional social media platforms like LinkedIn
+                  and Twitter to build my personal brand, showcase my experience
+                  and projects.
+                </li>
+              </ul>
+            </div>
+            <div class="cards">
+              <div class="card-heading">
+                <i class="fa-solid fa-people-line"></i>
+                <h3 class="card-heading">Leadership and Mentoring</h3>
+              </div>
+
+              <ul>
+                <p>Lead a Project</p>
+                <li>
+                  Take the lead on a project on my job to develop leadership
+                  skills.
+                </li>
+                <p>Mentor Junior Developers</p>
+                <li>
+                  Start mentoring newcomers in the field to solidify my
+                  knowledge and give back to the community.
+                </li>
+              </ul>
+            </div>
+            <div class="cards">
+              <div class="card-heading">
+                <i class="fa-solid fa-book"></i>
+                <h3 class="card-heading">Advanced Learning</h3>
+              </div>
+
+              <ul>
+                <p>Explore New Frameworks</p>
+                <li>Learn a new front-end framework like Vue.js or Angular.</li>
+                <p>Mentor Junior Developers</p>
+                <li>
+                  Understand the basics of DevOps, including CI/CD, Docker, and
+                  Kubernetes, Project management like Kaban
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- Contact session -->
+        <section class="contact" id="contact" data-testid="contact-section">
+          <h2>Contact Me</h2>
+          <form>
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <textarea placeholder="Message" required></textarea>
+            <button>
+              <span class="transition"></span>
+              <span class="gradient"></span>
+              <span class="label">Button</span>
+            </button>
+          </form>
+        </section>
+        <!-- Footer -->
+        <footer data-testid="footer-section">
+          <p>© 2024 mattakinremi. All rights reserved.</p>
+                  </div>
+          <div
+            id="current-time-date"
+            data-testid="currentTimeUTC current-Day"
+          ></div>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/akinremiolaboyem"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/mattakinremi"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/mattakinremi"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/mattakinremi"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mattakinremi/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </footer>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
